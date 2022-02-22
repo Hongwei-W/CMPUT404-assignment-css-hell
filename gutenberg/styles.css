@@ -1,0 +1,28 @@
+html *
+{
+    font-family: "Georgia" !important;
+}
+
+body {
+    background: url(./background/background.jpg)
+}
+
+p {
+    text-shadow: 3px 3px 0px #c2b32c8e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #444430;
+    padding: 12px, 50px, 50px, 12px;
+    background-color: #ffeb3a15;
+    border-radius: 20px;
+}
+
+img{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #000000b9 !important;
+    text-align: left;
+    font-style: italic;
+}
+
