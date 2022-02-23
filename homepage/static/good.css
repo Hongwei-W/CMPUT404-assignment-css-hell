@@ -1,0 +1,93 @@
+html * {
+    font-family: 'Cambria, Georgia, serif';
+    line-height: 1.6;
+}
+
+.main_column {
+    float: left;
+    max-width: 75%;
+    padding-left: 3rem;
+    padding-right: 30rem;
+    /* margin-right: 5rem; */
+}
+
+div + div {
+    margin-bottom: 5rem;
+}
+
+.top {
+    margin-top: 2rem;
+    padding-bottom: 10rem;
+    margin-bottom: 23rem;
+}
+
+.photo {
+    width: 55%;
+    float: left;
+}
+
+.intro {
+    float: left;
+    width: 45%;
+    overflow: hidden;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 5px 10px  #2A7B88;
+}
+
+.side {
+    /* float: left; */
+    max-width: 20%;
+    padding-left: 5rem;
+    margin-top: 8rem;
+    margin-right: 3rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    padding: 20px;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 5px 10px #2A7B88;
+}
+
+.title {
+    padding-left: 3rem;
+}
+
+hr {
+    border-top: 0.2rem solid #2A7B88;
+}
+
+h1 {
+    color: #2A7B88;
+    font-weight: 200;
+    margin-bottom: -0.5rem;
+}
+
+.contact  {
+    margin-top: -0.1rem;
+    font-size: 1.2em;
+}
+
+h2 {
+    color: #2A7B88;
+    font-weight: lighter;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+h4 {
+    color: #262626;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: -1rem;
+}
