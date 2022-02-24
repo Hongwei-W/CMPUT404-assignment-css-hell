@@ -1,0 +1,63 @@
+html * {
+    font-family: Copperplate;
+    background: #1935ff;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.container {
+    display: table;
+    width: 100%
+}
+
+.main_column {
+    display: table-cell;
+    width: 75%
+}
+
+.side {
+    display: table-cell;
+    width: 20%
+}
+
+img {
+    width: 50%;
+}
+
+.photo {
+    -webkit-mask: linear-gradient(#2A7B88, transparent);
+    mask: linear-gradient(#2A7B88, transparent);
+}
+
+h2 {
+    font-family: Papyrus;
+    color: white;
+}
+
+h3 {
+    font-family: cursive;
+    color: green;
+    font-weight: lighter;
+}
+
+h4 {
+    font-family: ".SF NS Mono";
+    font-weight: bolder;
+}
+
+.main_column {
+    margin: 10px 20px;
+}
+
+div + div {
+    margin: 20px;
+}
+
+.intro, .pro_history, .do_for_u {
+    border-style: dashed;
+    border-radius: 25px;
+}
+
+

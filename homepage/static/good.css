@@ -18,18 +18,21 @@ div + div {
 .top {
     margin-top: 2rem;
     padding-bottom: 10rem;
-    margin-bottom: 23rem;
+    width: 100%;
+    display: table;
 }
 
 .photo {
     width: 55%;
     float: left;
+    display: table-cell;
 }
 
 .intro {
     float: left;
     width: 45%;
     overflow: hidden;
+    display: table-cell;
 }
 
 img {
@@ -41,9 +44,8 @@ img {
 }
 
 .side {
-    /* float: left; */
+    float: left;
     max-width: 20%;
-    padding-left: 5rem;
     margin-top: 8rem;
     margin-right: 3rem;
     position: fixed;
